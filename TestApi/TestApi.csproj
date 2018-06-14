@@ -9,7 +9,6 @@
     <Folder Include="Context\" />
     <Folder Include="Services\" />
     <Folder Include="Model\" />
-    <Folder Include="Dao\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,5 +25,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="IDao.cs" />
+    <Compile Remove="EmptyClass.cs" />
+    <Compile Remove="Dao\BaseDao.cs" />
+    <Compile Remove="Services\Rules.cs" />
   </ItemGroup>
 </Project>
